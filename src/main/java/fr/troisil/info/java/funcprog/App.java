@@ -25,6 +25,9 @@ public class App {
         // J'ai défini des blocs pour les Function, les Supplier et les Consumer afin d'avoir un code plus propre et organisé
         // Il aurait peut-être été plus judicieux de les stocker dans des fichiers distincts pour améliorer la lisibilité mais tout à été fait ici lors de la refacto
         // Les normes de nommage sont en anglais (sauf la classe Personne car j'ai suivi ce qui était demandé dans l'exercice)
+        // Des try / catch ont été utilisés pour retourner des erreurs en cas de problèmes
+        // Le fichier personnes.csv contient pour info des prénoms différents et des âges similaires afin de tester l'exercice au maximum (trie demandé)
+        // Age décroissant puis prénom croissant
 
         Path filePath = Paths.get("src/main/resources/personnes.csv");
 
